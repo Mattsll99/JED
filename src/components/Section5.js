@@ -9,7 +9,7 @@ const Section5 = () => {
   return (
     <Container>
       <Title>Au delà de vos objectifs</Title>
-      <Subtitle>Nos services s'adaptent en fonction de vos objectifs et vos besoins. La finalité<br/> de notre accompagnement est de vous faire aller plus vite et plus loin</Subtitle>
+      <Subtitle>Nos services s&apos;adaptent en fonction de vos objectifs et vos besoins. La finalité<br/> de notre accompagnement est de vous faire aller plus vite et plus loin</Subtitle>
       <div style={{marginTop:"20px"}}><Button/></div>
       <Title2>Expertise comptable - nous vous accompagnons<br/> sur toutes vos obligations administratives</Title2>
       <Panel>

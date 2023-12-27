@@ -39,7 +39,7 @@ const Section4 = () => {
           </Line>
           <Line style={{marginTop:"40px"}}>
             <Logo src="../assets/pin_check.png"/>
-            <Intro>15 ans d'expérience dans l'accompagnement des sociétés de services (Banques, Fintech, Logiciel)</Intro>
+            <Intro>15 ans d&apos;expérience dans l'accompagnement des sociétés de services (Banques, Fintech, Logiciel)</Intro>
           </Line>
           <Link target='_blank' href='https://calendly.com/jed-conseil-expertisecomptable/call-jed-conseil-expertise-comptable15'>
           <DivButton>

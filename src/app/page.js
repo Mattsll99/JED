@@ -17,7 +17,7 @@ export default function Home() {
     
       <Container>
         
-       <Entry />
+       <Services />
       </Container>
     
   )

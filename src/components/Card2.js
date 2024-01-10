@@ -12,7 +12,7 @@ const Card2 = () => {
       </Top>
       <Body>
         <Title>Comptabilité 100% dématérialisée</Title>
-        <Subtitle>Chez JED, votre comptabilité est optimisée grâces à des outils digitaux innovants</Subtitle>
+        <Subtitle>Chez JED conseil, votre comptabilité est optimisée grâces à des outils digitaux innovants</Subtitle>
         <Line 
           text="Transmission facile des pièces"
         />

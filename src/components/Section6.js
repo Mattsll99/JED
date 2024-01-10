@@ -11,7 +11,7 @@ const Section6 = () => {
   return (
     <Container>
       <Wrapper>
-        <Top>Des solutions pour répondre à tous vos besoins,<br/> quelque soit votre taille</Top>
+        <Top>Des solutions pour répondre à tous vos besoins,<br/> quelle que soit votre taille</Top>
         <Body>
           <Newcard />
           <Newcard2 />

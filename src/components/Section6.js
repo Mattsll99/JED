@@ -63,6 +63,7 @@ const Top = styled.div`
   font-size: 25px;
   font-weight: 300;
   margin-bottom: 100px;
+  color: #ffffff;
   @media(max-width: 380px) {
     margin-bottom: 150px;
   }

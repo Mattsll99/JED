@@ -30,6 +30,7 @@ const Container = styled.div`
   display: flex; 
   flex-direction: row; 
   font-family: poppins;
+  color: #ffffff;
   @media(max-width: 1007px) {
     flex-direction: column;
     height: auto;

@@ -62,6 +62,10 @@ const Top = styled.div`
   padding: 30px;
   font-size: 25px;
   font-weight: 300;
+  margin-bottom: 100px;
+  @media(max-width: 348px) {
+    margin-bottom: 150px;
+  }
 `;
 
 const Body = styled.div`

@@ -6,7 +6,7 @@ const Bottom = () => {
     <Container>
       <Left>
         <Line style={{fontSize:"20px"}}>À propos de nous</Line>
-        <Line style={{marginTop:"20px"}}>Société inscrite à l'Ordre des experts comptables de Paris</Line>
+        <Line style={{marginTop:"20px"}}>Société inscrite à l&apos; Ordre des experts comptables de Paris</Line>
         <Line>Ile-de-France. Domiciliée au 84 rue de Normandie</Line>
         <Line>92400 Courbevoie</Line>
       </Left>

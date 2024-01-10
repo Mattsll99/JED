@@ -5,15 +5,16 @@ const Bottom = () => {
   return (
     <Container>
       <Left>
-        <Logo src="../assets/logo_final.png"/>
-        <Logo2 src="../assets/ordre_comptable.png"/>
+        <Line style={{fontSize:"20px"}}>À propos de nous</Line>
+        <Line style={{marginTop:"20px"}}>Société inscrite à l'Ordre des experts comptables de Paris</Line>
+        <Line>Ile-de-France. Domiciliée au 84 rue de Normandie</Line>
+        <Line>92400 Courbevoie</Line>
       </Left>
       <Right>
-        <Line>
-          <Map src="../assets/map_icon.png"/>
-          <Text style={{marginLeft:"10px"}}>84 rue de Normandie, 92400 Courbevoie</Text>
-        </Line>
-        <Text style={{marginTop:"10px", marginLeft:"23px"}}>+33 6 03 18 77 99</Text>
+      <Logo2 src="../assets/ordre_comptable.png"/>
+      <Line style={{marginTop:"20px"}}>Ordre des Experts-Comptables région Paris Ile-de-France</Line>
+      <Line>50 rue de Londres</Line>
+      <Line>75378 Paris cedex 08</Line>
       </Right>
     </Container>
   )
@@ -29,7 +30,7 @@ const Container = styled.div`
   display: flex; 
   flex-direction: row; 
   font-family: poppins;
-  @media(max-width: 512px) {
+  @media(max-width: 1007px) {
     flex-direction: column;
     height: auto;
     align-items: center;
@@ -43,7 +44,9 @@ const Left = styled.div`
   display: flex; 
   flex-direction: column; 
   padding: 50px;
-  @media(max-width: 512px) {
+  align-items: start; 
+  justify-content: center;
+  @media(max-width: 1007px) {
     width: 100%;
     align-items: center;
   }
@@ -53,7 +56,7 @@ const Right = styled(Left)`
   display: flex; 
   align-items: start; 
   justify-content: center;
-  @media(max-width: 512px) {
+  @media(max-width: 1007px) {
     width: 100%;
     align-items: center;
   }
@@ -74,6 +77,9 @@ const Line = styled.div`
   display: flex; 
   flex-direction: row; 
   align-items: center;
+  //background: red;
+  width: auto;
+  font-size: 14px;
 `;
 
 const Map = styled.img`

@@ -44,6 +44,6 @@ const Header = styled.div`
 `;
 
 const Logo = styled.img`
-  height: 70px; 
+  height: 120px; 
   width: auto;
 `;

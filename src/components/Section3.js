@@ -16,7 +16,7 @@ const Section3 = () => {
         <Card 
           icon="../assets/lhorloge.png"
           title="Réactivité"
-          subtitle="Votre temps étant précieux, notre équipe reste agile et disponible. Nos moteurs : rapidité́ et pertinence."
+          subtitle="Votre temps étant précieux, notre équipe est rapidement disponible. Nos moteurs : agilité et pertinence"
         />
         <Card 
           icon="../assets/oreille.png"

@@ -13,10 +13,16 @@ const Section2 = () => {
     'Gestion du social',
   ]);
 
+  //const handleCoverClick = (image, newTitle, newContent) => {
+    //setImageSource(image);
+    //setTitle(newTitle);
+    //setWrapperContent(newContent);
+  //};
+
   const handleCoverClick = (image, newTitle, newContent) => {
+    setWrapperContent(newContent);
     setImageSource(image);
     setTitle(newTitle);
-    setWrapperContent(newContent);
   };
 
   return (
@@ -139,12 +145,17 @@ const Container = styled.div`
 `;
 
 const ImageCover = styled.img`
-  height: 100%; 
-  width: auto;
-  @media(max-width: 820px) {
-    width: 100%; 
-    height: auto;
+  display: none; /* Hide by default */
+
+  @media(min-width: 800px) {
+    display: block; /* Show when screen size is 800px or larger */
+    height: 100%; 
+    width: auto;
+    @media(max-width: 820px) {
+      width: 100%; 
+      height: auto;
   }
+}
 `;
 
 const Cover = styled.div`
@@ -335,6 +346,10 @@ const Wrapper = styled.div`
 `;
 
 const WrapImage = styled.div`
+  display: none; /* Hide by default */
+
+@media(min-width: 800px) {
+  display: block; /* Show when screen size is 800px or larger */
   height: 100%; 
   width: 100%; 
   background: #1E1E1E;
@@ -344,4 +359,5 @@ const WrapImage = styled.div`
     height: 50%;
     margin-top: 20px;
   }
+}
 `;

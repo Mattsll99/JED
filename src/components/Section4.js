@@ -11,8 +11,10 @@ const Section4 = () => {
           <Circle>3</Circle>
           <Text>Qui nous sommes</Text>
         </Cover>
-        <SubText style={{marginTop: "60px"}}>Nous sommes un cabinet d’expertise comptable créé en 2018 et installé à Courbevoie (92)</SubText>
-        <SubText style={{marginTop: "30px"}}>Notre fondatrice:</SubText>
+        <SubText style={{marginTop: "60px"}}>Nous sommes un cabinet d’expertise comptable <br/>créé en 2018 et installé à Courbevoie (92)</SubText>
+        <WrapText>
+        <SubText style={{marginTop: "30px", fontSize:"30px"}}>Notre fondatrice:</SubText>
+        </WrapText>
       </Top>
       <Body>
         <Left>
@@ -67,10 +69,20 @@ const Container = styled.div`
   margin-top: 50px;
 `;
 
+const WrapText = styled.div`
+  height: auto; 
+  width: 100%; 
+  display: flex; 
+  padding-left: 60px;
+  margin-top: 40px;
+`;
+
 const SubText = styled.text`
+  font-size: 35px; 
+  font-weight: 400; 
   color: #1E1E1E;
-  font-size: 20px;
-  font-weight: 500;
+  margin-top: 40px;
+  font-family: poppins;
 `;
 
 const DivButton = styled.div`

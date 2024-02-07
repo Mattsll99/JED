@@ -108,7 +108,7 @@ const Section2 = () => {
           onClick={() =>
             handleCoverClick(
               '../assets/image_jed_fintech.jpg',
-              'Banque de Fintechs',
+              'Banque & Fintech',
               [
                 'Mise en place des contrôles trimestriels',
                 'Optimisation des processus déclaratifs',
@@ -118,7 +118,7 @@ const Section2 = () => {
             )
           }
         >
-          Banque de Fintech
+          Banque & Fintech
         </Cover>
         </Bottom>
       </Card>

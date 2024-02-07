@@ -11,6 +11,8 @@ const Section4 = () => {
           <Circle>3</Circle>
           <Text>Qui nous sommes</Text>
         </Cover>
+        <SubText style={{marginTop: "60px"}}>Nous sommes un cabinet d’expertise comptable créé en 2018 et installé à Courbevoie (92)</SubText>
+        <SubText style={{marginTop: "30px"}}>Notre fondatrice:</SubText>
       </Top>
       <Body>
         <Left>
@@ -65,6 +67,12 @@ const Container = styled.div`
   margin-top: 50px;
 `;
 
+const SubText = styled.text`
+  color: #1E1E1E;
+  font-size: 20px;
+  font-weight: 500;
+`;
+
 const DivButton = styled.div`
   height: auto; 
   width: 100%;
@@ -87,6 +95,9 @@ const Profile = styled.img`
 const Top = styled.div`
   height: auto; 
   width: 100%; 
+  text-align: center;
+  display: flex; 
+  flex-direction: column;
 `;
 
 const Body = styled.div`

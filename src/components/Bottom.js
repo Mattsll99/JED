@@ -35,7 +35,7 @@ const Bottom = () => {
         <BottomText>Forme juridique: SARL unipersonnelle</BottomText>
         <BottomText>Addresse: 84 RUE DE NORMANDIE 92 400 COURBEVOIE</BottomText>
         <BottomText>Téléphone: 06 03 18 77 99</BottomText>
-        <BottomText>Email:</BottomText>
+        <BottomText>Email: jessie.deslandes@jed-ec.com</BottomText>
         <BottomText>Directrice de la publication: MME Jessie Deslandes</BottomText>
         <BottomText>Reponsable de la rédaction: MME Jessie Deslandes</BottomText>
         <BottomText></BottomText>

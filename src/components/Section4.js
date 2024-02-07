@@ -75,6 +75,11 @@ const WrapText = styled.div`
   display: flex; 
   padding-left: 60px;
   margin-top: 40px;
+  @media(max-width: 800px) {
+    align-items: center;
+    justify-content: center;
+    padding: 0;
+  }
 `;
 
 const SubText = styled.text`

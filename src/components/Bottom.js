@@ -20,7 +20,7 @@ const Bottom = () => {
         <Line style={{marginTop:"20px"}}>Société inscrite à l&apos; Ordre des experts comptables de Paris</Line>
         <Line>Ile-de-France. Domiciliée au 84 rue de Normandie</Line>
         <Line>92400 Courbevoie</Line>
-        <PolText onClick= {handleOpen}>Politique de confidentialité</PolText>
+        <PolText onClick= {handleOpen}>Mentions légales</PolText>
       </Left>
       <Right>
       <Logo2 src="../assets/ordre_comptable.png"/>
@@ -32,7 +32,7 @@ const Bottom = () => {
         <PolWrapper onClick={handleClose}>
         <Title>Mentions légales</Title>
         <BottomText>Nom de la société: JED Conseil</BottomText>
-        <BottomText>Forme juridique: SARL unipersonnelle</BottomText>
+        <BottomText>Forme juridique: SASU</BottomText>
         <BottomText>Addresse: 84 RUE DE NORMANDIE 92 400 COURBEVOIE</BottomText>
         <BottomText>Téléphone: 06 03 18 77 99</BottomText>
         <BottomText>Email: jessie.deslandes@jed-ec.com</BottomText>
@@ -41,7 +41,7 @@ const Bottom = () => {
         <BottomText></BottomText>
         <Title style={{marginTop: "20px"}}>Protection des données personnelles</Title>
         <BottomText>Les informations recueillies sur le site web sont utilisées dans le cadre de la relation commerciale avec la société. Elles ne sont ni cédées ni vendues à des tiers. La société s&apos; engage à prendre toutes les mesures nécessaires pour garantir la sécurité et la confidentialité des données personnelles conformément au Règlement Général sur la Protection des Données (RGPD).
-Conformément à la législation en vigueur, vous disposez d&apos;un droit d&apos;accès, de rectification et de suppression de vos données personnelles. Vous pouvez exercer ces droits en contactant la société par email à l&apos; adresse accueil@3ecsconseil.fr ou par courrier à l&apos;adresse postale 20 AV LEONARD DE VINCI 92400 COURBEVOIE.</BottomText>
+Conformément à la législation en vigueur, vous disposez d&apos;un droit d&apos;accès, de rectification et de suppression de vos données personnelles. Vous pouvez exercer ces droits en contactant la société par email à l&apos; adresse contact@jed-ec.com ou par courrier à l&apos;adresse postale 84 RUE DE NORMANDIE 92400 COURBEVOIE.</BottomText>
         <Title style={{marginTop: "20px"}}>Proprieté intellectuelle</Title>
         <BottomText>Tous les contenus du site web (textes, images, vidéos, etc.) sont la propriété exclusive de la société ou de ses partenaires et sont protégés par le droit d&apos;auteur et le droit des marques. Toute reproduction, modification, diffusion ou exploitation commerciale, totale ou partielle, sans l&apos;autorisation préalable écrite de la société est strictement interdite.</BottomText>
         <Title style={{marginTop: "20px"}}>Liens</Title>

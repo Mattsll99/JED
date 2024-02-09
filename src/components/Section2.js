@@ -13,16 +13,19 @@ const Section2 = () => {
     'Gestion du social',
   ]);
 
+  const [depo, setDepo] = useState("");
+
   //const handleCoverClick = (image, newTitle, newContent) => {
     //setImageSource(image);
     //setTitle(newTitle);
     //setWrapperContent(newContent);
   //};
 
-  const handleCoverClick = (image, newTitle, newContent) => {
+  const handleCoverClick = (image, newTitle, newContent, newDepo) => {
     setWrapperContent(newContent);
     setImageSource(image);
     setTitle(newTitle);
+    setDepo(newDepo)
   };
 
   return (
@@ -49,6 +52,9 @@ const Section2 = () => {
             {wrapperContent.map((item, index) => (
               <li key={index}>{item}</li>
             ))}
+            <WrapSub>
+            <SubText>{depo}</SubText>
+            </WrapSub>
           </Wrapper>
           </Left>
           <Right>
@@ -67,7 +73,8 @@ const Section2 = () => {
                 'Comptabilité 100% dématérialisée',
                 'Déclaration fiscale',
                 'Gestion du social',
-              ]
+              ],
+              'Vous déposez vos pièces et nous faisons le reste'
             )
           }
         >
@@ -142,6 +149,22 @@ const Container = styled.div`
   color: #1E1E1E;
   padding-top: 50px;
   font-family: poppins;
+`;
+
+const WrapSub = styled.div`
+  margin-top: 20px;
+  height: auto; 
+  width: 100%; 
+  //background: red;
+  //padding-left: 30px;
+`;
+
+const SubText = styled.text`
+  color: #ffffff; 
+  font-size: 16px; 
+  font-weight: 300; 
+  margin-top: 20px;
+  font-style: italic;
 `;
 
 const ImageCover = styled.img`

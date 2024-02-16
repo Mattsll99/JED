@@ -1,3 +1,5 @@
+"use client"
+
 import React from 'react'
 import styled from 'styled-components'
 import Button from '@/components/Button'
@@ -46,8 +48,8 @@ const Header = styled.div`
   padding: 30px;
   position: fixed; 
   top: 0;
-  background: #ffffff;
-  margin-bottom: 80px;
+  background: #ffffff; 
+  z-index: #ffffff;
   z-index: 3;
 `;
 

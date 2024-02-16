@@ -129,7 +129,7 @@ const Section2 = () => {
         </Cover>
         </Bottom>
       </Card>
-      <Link href="/Services">
+      <Link href="/nosservices">
       <ServiceButton>
         <ButtonWrap>En savoir plus</ButtonWrap>
       </ServiceButton>

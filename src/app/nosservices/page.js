@@ -1,3 +1,5 @@
+"use client"
+
 import Button from '@/components/Button'
 import Section5 from '@/components/Section5'
 import Section6 from '@/components/Section6'
@@ -9,9 +11,9 @@ const Services = () => {
   return (
     <Container>
       <Header>
-          <Link href="/">
+        <Link href="/">
           <Logo src="../assets/logo_final.png"/>
-          </Link>
+        </Link>
           <Button />
         </Header>
         <Section5 />

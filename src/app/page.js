@@ -11,12 +11,13 @@ import Section4 from '@/components/Section4'
 import Bottom from '@/components/Bottom'
 import Entry from './Entry'
 import Services from './Services'
+import Link from 'next/link'
+//import FirstPage from '@/pages/firstPage'
 
 export default function Home() {
   return (
     
       <Container>
-        
        <Entry />
       </Container>
     
@@ -29,6 +30,15 @@ const Container = styled.div`
   display: flex;
   flex-direction: column;
   //background: red;
+`;
+
+const Testdiv = styled.div`
+  position: fixed; 
+  top: 0; 
+  height: 60px; 
+  width: 100%; 
+  background: red;
+  z-index: 6;
 `;
 
 const Header = styled.div`

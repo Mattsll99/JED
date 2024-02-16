@@ -12,9 +12,9 @@ const Card3 = () => {
       </Top>
       <Body>
         <Title>Déclaration fiscale</Title>
-        <Subtitle>Libérez-vous de la charge mentale des échéances fiscales. Chez JED, nous nous occupons de tout.</Subtitle>
+        <Subtitle>Libérez-vous de la charge mentale des échéances fiscales. Chez JED Conseil, nous nous occupons de tout.</Subtitle>
         <Line 
-          text="Déclaration mensuelle de TVA"
+          text="Déclaration de TVA"
         />
         <Line 
           text="Accompte d'IS et liasse fiscale"

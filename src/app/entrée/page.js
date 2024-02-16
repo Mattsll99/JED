@@ -12,7 +12,7 @@ const Entry = () => {
   return (
     <Container>
         <Header>
-            <Link href="/">
+            <Link href="/entrée">
           <Logo src="../assets/logo_final.png"/>
           </Link> 
           <Button />

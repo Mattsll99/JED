@@ -11,7 +11,7 @@ const Section5 = () => {
       <Title>Au delà de vos objectifs</Title>
       <Subtitle>Nos services s&apos;adaptent en fonction de vos objectifs et vos besoins. La finalité<br/> de notre accompagnement est de vous faire aller plus vite</Subtitle>
       <div style={{marginTop:"20px"}}><Button/></div>
-      <Title2>Nous vous accompagnons sur toutes vos oligations administratives<br/>Vous déposez vos pièces et nous nous occupons du reste.</Title2>
+      <Title2>Nous vous accompagnons sur toutes vos obligations administratives<br/>Vous déposez vos pièces et nous nous occupons du reste.</Title2>
       <Panel>
         <Card2 />
         <Card3 />

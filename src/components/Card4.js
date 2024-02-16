@@ -23,7 +23,7 @@ const Card4 = () => {
           text="Gestion des sorties et des entrées dans vos effectifs"
         />
         <Line 
-          text="Gestion des congées payés et des absences pour maladie"
+          text="Gestion des congés payés et des absences pour maladie"
         />
         <Line 
           text="Déclaration sociale du dirigeant"

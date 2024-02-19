@@ -51,6 +51,7 @@ const Header = styled.div`
   background: #ffffff; 
   z-index: #ffffff;
   z-index: 3;
+  background: red;
 `;
 
 const Logo = styled.img`

@@ -7,7 +7,7 @@ import React from 'react'
 import styled from 'styled-components'
 import Link from 'next/link'
 
-const Services = () => {
+const Newservices = () => {
   return (
     <Container>
       <Header>
@@ -22,7 +22,7 @@ const Services = () => {
   )
 }
 
-export default Services
+export default Newservices
 
 const Container = styled.div`
   width: 100vw; 

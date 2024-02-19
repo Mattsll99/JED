@@ -10,7 +10,7 @@ import Section4 from '@/components/Section4'
 import Bottom from '@/components/Bottom'
 import Link from 'next/link'
 
-const Entry = () => {
+const Newentry = () => {
   return (
     <Container>
         <Header>
@@ -28,7 +28,7 @@ const Entry = () => {
   )
 }
 
-export default Entry
+export default Newentry
 
 const Container = styled.div`
   width: 100vw; 

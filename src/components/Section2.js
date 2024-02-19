@@ -13,7 +13,7 @@ const Section2 = () => {
     'Gestion du social',
   ]);
 
-  const [depo, setDepo] = useState("");
+  const [depo, setDepo] = useState("Vous déposez vos pièces et nous faisons le reste");
 
   //const handleCoverClick = (image, newTitle, newContent) => {
     //setImageSource(image);
@@ -71,7 +71,7 @@ const Section2 = () => {
               'Expertise comptable',
               [
                 'Comptabilité 100% dématérialisée',
-                'Déclaration fiscale',
+                'Déclarations fiscales',
                 'Gestion du social',
               ],
               'Vous déposez vos pièces et nous faisons le reste'
@@ -120,7 +120,7 @@ const Section2 = () => {
                 'Mise en place des contrôles trimestriels',
                 'Optimisation des processus déclaratifs',
                 'Déclarations des comptes annuels format bancaire',
-                'Déclaration des reporting ACPR (RUBA, COREP, FINREP…)',
+                'Déclarations des reportings ACPR (RUBA, COREP, FINREP…)',
               ]
             )
           }
@@ -131,7 +131,7 @@ const Section2 = () => {
       </Card>
       <Link href="/nosservices">
       <ServiceButton>
-        <ButtonWrap>En savoir plus</ButtonWrap>
+        <ButtonWrap>En savoir plus<br/>sur nos services</ButtonWrap>
       </ServiceButton>
       </Link>
     </Container>
@@ -221,8 +221,8 @@ const Logo = styled.img`
 `;
 
 const ServiceButton = styled.div`
-  height: 60px; 
-  width: 200px; 
+  height: 80px; 
+  width: 220px; 
   //background: red;
   margin-top: 50px;
   border-radius: 100px;
@@ -246,6 +246,7 @@ const ButtonWrap = styled.div`
   font-size: 20px; 
   font-weight: 300; 
   color: #ffffff;
+  text-align: center;
 `;
 
 const Line = styled.div`

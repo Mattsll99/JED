@@ -11,7 +11,7 @@ const Section3 = () => {
         <Circle>2</Circle>
         <Text>Notre approche</Text>
       </Button>
-      <Title>Notre équipe vous accompagne sur<br/> votre comptabilité, vos enjeux fiscaux,<br/> sociaux et juridique  </Title>
+      <Title>Notre équipe vous accompagne sur<br/> votre comptabilité, vos enjeux fiscaux,<br/> sociaux et juridiques  </Title>
       <Panel>
         <Card 
           icon="../assets/lhorloge.png"
@@ -21,17 +21,17 @@ const Section3 = () => {
         <Card 
           icon="../assets/oreille.png"
           title="Écoute"
-          subtitle="Vous connaissez votre société mieux que personne. Vous écoutez est au centre de notre stratégie pour agir efficacement"
+          subtitle="Vous connaissez votre société mieux que personne. Vous écouter est au centre de notre stratégie pour agir efficacement"
         />
         <Card 
           icon="../assets/la-technologie.png"
           title="Technologie"
-          subtitle="Nous vous proposons des outils comptables de dernière génération pour simplifier votre gestion et automatiser vos taches (synchronisation de vos banques, dépôt des pièces fluides…)"
+          subtitle="Nous vous proposons des outils comptables de dernière génération pour simplifier votre gestion et automatiser vos tâches (synchronisation de vos banques, dépôt des pièces fluides…)"
         />
         <Card 
           icon="../assets/chemin.png"
           title="Conseil"
-          subtitle="Les outils sont pour nous au service de l’humain et nous restons à vos côté pour vous conseiller au mieux"
+          subtitle="Les outils sont pour nous au service de l’humain et nous restons à vos côtés pour vous conseiller au mieux"
         />
       </Panel>
       <Subtitle>Besoin de renseignements ?</Subtitle>

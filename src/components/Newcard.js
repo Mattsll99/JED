@@ -10,7 +10,7 @@ const Newcard = () => {
         text="Management d'équipe"
       />
       <Line 
-        text="Maitrise de la comptabilité générale en norme française"
+        text="Maitrise de la comptabilité générale en normes françaises et consolidées"
       />
       <Line 
         text="Maitrise de la réglementation bancaire et des reportings ACPR (RUBA, COREP, FINREP, Bale IV,...)"

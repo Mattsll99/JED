@@ -12,12 +12,12 @@ const Card2 = () => {
       </Top>
       <Body>
         <Title>Comptabilité 100% dématérialisée</Title>
-        <Subtitle>Chez JED Conseil, votre comptabilité est optimisée grâces à des outils digitaux innovants</Subtitle>
+        <Subtitle>Chez JED Conseil, votre comptabilité est optimisée grâce à des outils digitaux innovants</Subtitle>
         <Line 
           text="Transmission facile des pièces"
         />
         <Line 
-          text="Comptabilité à jour en 'quasi temps réel'"
+          text="Comptabilité à jour en ''quasi temps réel''"
         />
         <Line 
           text="Connexion à vos flux bancaires automatique"

@@ -9,16 +9,12 @@ import Section3 from '@/components/Section3'
 import Section4 from '@/components/Section4'
 import Bottom from '@/components/Bottom'
 import Link from 'next/link'
+import Header from '@/components/Header'
 
 const Entry = () => {
   return (
     <Container>
-        <Header>
-            <Link href="/">
-          <Logo src="../assets/logo_final.png"/>
-          </Link> 
-          <Button />
-        </Header>
+        <Header />
         <Section1 />
         <Section2 />
         <Section3 />
@@ -38,21 +34,21 @@ const Container = styled.div`
   //background: red;
 `;
 
-const Header = styled.div`
-  height: auto; 
-  width: 100%; 
-  display: flex; 
-  flex-direction: row; 
-  align-items: center; 
-  justify-content: space-between;
-  padding: 30px;
-  position: fixed; 
-  top: 0;
-  background: #ffffff; 
-  z-index: #ffffff;
-  z-index: 3;
+//const Header = styled.div`
+  //height: auto; 
+  //width: 100%; 
+  //display: flex; 
+  //flex-direction: row; 
+  //align-items: center; 
+  //justify-content: space-between;
+  //padding: 30px;
+  //position: fixed; 
+  //top: 0;
+  //background: #ffffff; 
+  //z-index: #ffffff;
+  //z-index: 3;
   //background: red;
-`;
+//`;
 
 const Logo = styled.img`
   height: 120px; 

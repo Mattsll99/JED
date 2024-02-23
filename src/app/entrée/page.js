@@ -12,21 +12,19 @@ import Link from 'next/link'
 
 const Newentry = () => {
 
+  const [isLoading, setIsLoading] = useState(true);
+
   useEffect(() => {
     // Simulate loading time with setTimeout
     const timeout = setTimeout(() => {
       setIsLoading(false);
-    }, 2000); // Adjust the time as needed
+    }, 7000); // Adjust the time as needed
 
     // Cleanup function to clear timeout
     return () => clearTimeout(timeout);
   }, []); // Run effect only once after initial render
 
-  if (isLoading) {
-    // Return loading indicator or placeholder
-    return <div>Loading...</div>;
-  }
-  
+
   return (
     <Container>
         <Header>

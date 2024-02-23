@@ -30,6 +30,8 @@ const Newentry = () => {
     return <div>Loading...</div>;
   }
 
+  console.log(isLoading)
+
   return (
     <Container>
         <Header>

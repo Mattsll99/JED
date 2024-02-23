@@ -1,6 +1,6 @@
 "use client"
 
-import React from 'react'
+import React, { useState } from 'react'
 import styled from 'styled-components'
 import Button from '@/components/Button'
 import Section1 from '@/components/Section1'
@@ -11,6 +11,22 @@ import Bottom from '@/components/Bottom'
 import Link from 'next/link'
 
 const Newentry = () => {
+
+  useEffect(() => {
+    // Simulate loading time with setTimeout
+    const timeout = setTimeout(() => {
+      setIsLoading(false);
+    }, 2000); // Adjust the time as needed
+
+    // Cleanup function to clear timeout
+    return () => clearTimeout(timeout);
+  }, []); // Run effect only once after initial render
+
+  if (isLoading) {
+    // Return loading indicator or placeholder
+    return <div>Loading...</div>;
+  }
+  
   return (
     <Container>
         <Header>

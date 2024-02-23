@@ -9,6 +9,7 @@ import Section3 from '@/components/Section3'
 import Section4 from '@/components/Section4'
 import Bottom from '@/components/Bottom'
 import Link from 'next/link'
+import Header from '@/components/Header'
 
 
 const Newentry = () => {
@@ -34,12 +35,7 @@ const Newentry = () => {
 
   return (
     <Container>
-        <Header>
-            <Link href="/entrée">
-          <Logo src="../assets/logo_final.png"/>
-          </Link> 
-          <Button />
-        </Header>
+        <Header />
         <Section1 />
         <Section2 />
         <Section3 />

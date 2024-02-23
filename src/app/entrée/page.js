@@ -55,20 +55,7 @@ const Container = styled.div`
   //background: red;
 `;
 
-const Header = styled.div`
-  height: auto; 
-  width: 100%; 
-  display: flex; 
-  flex-direction: row; 
-  align-items: center; 
-  justify-content: space-between;
-  padding: 30px;
-  position: fixed; 
-  top: 0;
-  background: #ffffff;
-  margin-bottom: 80px;
-  z-index: 3;
-`;
+
 
 const Logo = styled.img`
   height: 120px; 

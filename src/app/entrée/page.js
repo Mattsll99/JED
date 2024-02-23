@@ -1,6 +1,6 @@
 "use client"
 
-import React from 'react'
+import React,{ useState }  from 'react'
 import styled from 'styled-components'
 import Button from '@/components/Button'
 import Section1 from '@/components/Section1'
@@ -9,6 +9,7 @@ import Section3 from '@/components/Section3'
 import Section4 from '@/components/Section4'
 import Bottom from '@/components/Bottom'
 import Link from 'next/link'
+
 
 const Newentry = () => {
 

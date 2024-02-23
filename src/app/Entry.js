@@ -13,12 +13,7 @@ import Link from 'next/link'
 const Entry = () => {
   return (
     <Container>
-        <Header>
-            <Link href="/">
-          <Logo src="../assets/logo_final.png"/>
-          </Link> 
-          <Button />
-        </Header>
+        
         <Section1 />
         <Section2 />
         <Section3 />
@@ -29,6 +24,14 @@ const Entry = () => {
 }
 
 export default Entry
+
+
+//<Header>
+    //        <Link href="/">
+      //    <Logo src="../assets/logo_final.png"/>
+        //  </Link> 
+         // <Button />
+        //</Header>
 
 const Container = styled.div`
   width: 100vw; 

@@ -1,6 +1,6 @@
 "use client"
 
-import React, { useState } from 'react'
+import React from 'react'
 import styled from 'styled-components'
 import Button from '@/components/Button'
 import Section1 from '@/components/Section1'
